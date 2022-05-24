@@ -1416,13 +1416,21 @@ body._touch .menu__list > li._active .menu__arrow {
   min-height: 20px;
 }
 
-.footer__lawyer,
-.footer__privacy-policy {
-  cursor: pointer;
-}
-
 .footer__privacy-policy {
   text-decoration: underline;
+}
+
+.footer__privacy-policy a {
+  color: white;
+}
+
+.privacy {
+  line-height: 1.5;
+}
+
+.privacy__text-bold {
+  padding: 10px 0;
+  font-weight: bold;
 }
 
 .nosection {
